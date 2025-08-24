@@ -23,4 +23,21 @@ body {
 .apresentacao {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.apresentacao-conteudo {
+    width: 615px;
+}
+
+.apresentacao-conteudo-titulo {
+    font-size: 36px;
+}
+
+.apresentacao-conteudo-texto {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
 }
