@@ -9,6 +9,6 @@ body {
     color: var(--color-light);
 }
 
-strong {
+.destaque-titulo {
     color: var(--color-secondary);
 }
