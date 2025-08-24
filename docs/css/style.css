@@ -19,3 +19,8 @@ body {
 .destaque-titulo {
     color: var(--color-secondary);
 }
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
