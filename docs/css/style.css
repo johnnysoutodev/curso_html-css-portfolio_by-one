@@ -3,3 +3,8 @@
     --color-dark: #000;
     --color-secondary: #22d4fd;
 }
+
+body {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
