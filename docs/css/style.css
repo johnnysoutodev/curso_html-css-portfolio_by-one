@@ -52,6 +52,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 5% 15%;
+    gap: 5.125rem;
 }
 
 .apresentacao-conteudo, .sobre-conteudo {
@@ -131,4 +132,21 @@ body {
     color: var(--color-dark);
     background-color: var(--color-secondary);
     font-family: var(--font-secondary);
+}
+
+@media (max-width: 1200px) {
+    .apresentacao, .sobre {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .apresentacao-conteudo, .sobre-conteudo {
+        width: 100%;
+        margin: 0;
+    }
+
+    .apresentacao-imagem {
+        width: 80%;
+        margin-top: 2rem;
+    }
 }
