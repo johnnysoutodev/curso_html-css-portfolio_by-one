@@ -8,14 +8,18 @@
 :root {
     --color-light: #f6f6f6;
     --color-dark: #000;
-    --color-bg-dark: #272727;
     --color-secondary: #22d4fd;
+    --color-hover: #272727;
+    --font-primary: 'Krona One', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
+    --font-tertiary: 'Roboto', sans-serif;
 }
 
 body {
     background-color: var(--color-dark);
     color: var(--color-light);
     box-sizing: border-box;
+    font-family: var(--font-tertiary);
 }
 
 .cabecalho {
@@ -28,25 +32,29 @@ body {
 }
 
 .cabecalho-menu-link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secondary);
     font-size: 24px;
     font-weight: 600;
     color: var(--color-secondary);
     text-decoration: none;
 }
 
+.cabecalho-menu-link:hover {
+    text-decoration: underline;
+}
+
 .destaque-titulo {
     color: var(--color-secondary);
 }
 
-.apresentacao {
+.apresentacao, .sobre {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5% 15%;
 }
 
-.apresentacao-conteudo {
+.apresentacao-conteudo, .sobre-conteudo {
     width: 615px;
     display: flex;
     flex-direction: column;
@@ -54,15 +62,15 @@ body {
     margin-right: 40px;
 }
 
-.apresentacao-conteudo-titulo {
+.apresentacao-conteudo-titulo, .sobre-conteudo-titulo {
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--font-primary);
 }
 
-.apresentacao-conteudo-texto {
+.apresentacao-conteudo-texto, .sobre-conteudo-texto {
     margin: 20px 0;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secondary);
     font-weight: 300;
     line-height: 1.5;
     text-align: justify;
@@ -78,20 +86,20 @@ body {
 }
 
 .apresentacao-links-subtitulo {
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--font-primary);
     font-weight: 400;
     font-size: 24px;
 }
 
 .apresentacao-links a {
     margin-right: 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secondary);
     font-weight: 600;
     text-decoration: none;
 }
 
 .apresentacao-links a:hover {
-    background-color: var(--color-bg-dark);
+    background-color: var(--color-hover);
 }
 
 .apresentacao-links-link {
@@ -118,5 +126,5 @@ body {
     font-weight: 400;
     color: var(--color-dark);
     background-color: var(--color-secondary);
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secondary);
 }
