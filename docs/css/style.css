@@ -55,7 +55,7 @@ body {
 }
 
 .apresentacao-conteudo, .sobre-conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -107,7 +107,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.75rem;
-    width: 378px;
+    width: 50%;
     text-align: center;
     padding: 1.5rem 0;
     font-size: 1.5rem;
@@ -116,6 +116,10 @@ body {
     border: var(--color-secondary) 2px solid;
     transition: background-color 0.3s, color 0.3s;
     text-decoration: none;
+}
+
+.apresentacao-imagem {
+    width: 50%;
 }
 
 .rodape {
