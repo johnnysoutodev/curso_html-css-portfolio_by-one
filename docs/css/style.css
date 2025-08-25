@@ -57,6 +57,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+    gap: 32px;
 }
 
 .apresentacao-links a {
