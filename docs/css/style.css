@@ -146,6 +146,7 @@ body {
     .apresentacao, .sobre {
         flex-direction: column-reverse;
         text-align: center;
+        padding: 5%;
     }
 
     .apresentacao-conteudo, .sobre-conteudo {
