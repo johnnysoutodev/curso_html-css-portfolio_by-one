@@ -60,6 +60,12 @@ body {
     gap: 32px;
 }
 
+.apresentacao-links-subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .apresentacao-links a {
     margin-right: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -68,13 +74,14 @@ body {
 }
 
 .apresentacao-links-link {
-    background-color: var(--color-secondary);
-    width: 280px;
+    /* background-color: var(--color-secondary); */
+    width: 378px;
     text-align: center;
     padding: 21.5px 0;
     font-size: 24px;
-    color: var(--color-dark);
-    border-radius: 16px;
+    color: var(--color-light);
+    border-radius: 8px;
+    border: var(--color-secondary) 2px solid;
     transition: background-color 0.3s, color 0.3s;
     text-decoration: none;
 }
