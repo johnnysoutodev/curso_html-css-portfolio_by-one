@@ -15,7 +15,6 @@
 body {
     background-color: var(--color-dark);
     color: var(--color-light);
-    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -27,7 +26,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 15%;
+    padding: 8% 15%;
 }
 
 .apresentacao-conteudo {
@@ -92,4 +91,15 @@ body {
     border: var(--color-secondary) 2px solid;
     transition: background-color 0.3s, color 0.3s;
     text-decoration: none;
+}
+
+.rodape {
+    text-align: center;
+    padding: 24px 0;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--color-dark);
+    background-color: var(--color-secondary);
+    font-family: 'Montserrat', sans-serif;
 }
